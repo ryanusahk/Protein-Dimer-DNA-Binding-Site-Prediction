@@ -1,4 +1,4 @@
-Protein-Dimer-Genome-Binding-Site-Prediction
+Protein-Dimer-DNA-Binding-Site-Prediction
 ============================================
 
 Python script that takes inputs of a standard GenBank Genome file and a known DNA binding site and predicts the binding sites of dimerized proteins in the upstream region of all known open reading frames of genes. Outputs a file for viewing in standard UGene software.
