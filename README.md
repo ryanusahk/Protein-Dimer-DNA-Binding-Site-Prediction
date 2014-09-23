@@ -6,4 +6,4 @@ Python script that takes inputs of a standard GenBank Genome file and a known DN
 #Included Files
 ##bindingsites.py
 ##NA1000.gb
-###The Annotated Caulobacter Genome file which the script is set to import. Can be replaced with any standard annotated GenBank .gb file.
+The Annotated Caulobacter Genome file which the script is set to import. Can be replaced with any standard annotated GenBank .gb file.
