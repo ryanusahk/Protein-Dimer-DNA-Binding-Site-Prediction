@@ -31,6 +31,7 @@ dataMatrix = []
 genomeLibrary = []
 genomeLength = 0
 
+# 
 def getLocii():
 	text_file = open(genomeFile, "r")
 	lines = text_file.readlines()
@@ -131,9 +132,7 @@ def search():
 			gene.append(-1)
 
 		else:
-			# print gene
-			# print genome[gene[SEARCHSTART] + index:gene[SEARCHSTART] + index + 5]
-
+			
 			if searchFragment[index + 7: index + 12].find(secondSearch) != -1:
 				gene.append(True)
 				gene.append(gene[SEARCHSTART] + index)
